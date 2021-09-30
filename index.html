@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/296d63444b.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;600&display=swap');
+        </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="wrapper__icons icons">
+            <a href="https://www.linkedin.com/" class="icons__link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/AleksandraMotor" class="icons__link"><i class="fab fa-github"></i></a>
+            <a href="#" class="icons__link"><i class="far fa-envelope"></i></a>
+        </div>
+
+        <nav class="wrapper__menu menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="home menu__link">home</a></li>
+                <li class="menu__item"><a href="#" class="projects menu__link">projects</a></li>
+                <li class="menu__item"><a href="#" class="skills menu__link">skills</a></li>
+                <li class="menu__item"><a href="#" class="contact menu__link">contact</a></li>                <li class="menu__item"><a href="#" class="menu__link"><i class="fas fa-file-download"></i> cv</a></li>
+            </ul>
+        </nav>
+
+        <nav class="wrapper__fixed fixed">
+            <ul class="fixed__list">
+                <li class="fixed__item">
+                    <a href="#" class="home fixed__link"><i class="fas fa-home"></i></a>
+                </li>
+                <li class="fixed__item">
+                    <a href="#" class="projects fixed__link">        
+                    <span><i class="far fa-folder"></i></span>
+                    <!-- <span><i class="far fa-folder-open"></i></span> -->
+                    </a>
+                </li>
+                <li class="fixed__item"><a href="#" class="skills fixed__link "><i class="far fa-address-card"></i></a></li>
+                <li class="fixed__item"><a href="#" class="contact fixed__link"><i class="fas fa-phone-alt"></i></a></li>
+            </ul>
+        </nav>
+
+        <section class="wrapper__section s1" data-section="home" id="home">
+            <div class="s1__box"><img class="s1__img" src="img/photo.jpg" alt=""></div>
+        </section>
+        <section class="wrapper__section s2" data-section="projects" id="projects"></section>
+        <section class="wrapper__section s3" data-section="skills" id="skills"></section>
+        <section class="wrapper__section s4" data-section="contact" id="contact"></section>
+
+        <footer class="wrapper__footer footer">
+                <a href="https://www.linkedin.com/" class="footer__link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/AleksandraMotor" class="footer__link"><i class="fab fa-github"></i></a>
+                <a href="#" class="footer__link"><i class="far fa-envelope"></i></a>
+        </footer>
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="src/script.js"></script>
+
+</body>
+</html>

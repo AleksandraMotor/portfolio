@@ -1,0 +1,11 @@
+.s1 {
+    background-color: $grey-color;
+    &__box {
+        width: 250px;
+        height: 250px;
+        background-color: $grey-color;
+    }
+    &__img {
+        width: 200px;
+    }
+}
