@@ -2,6 +2,7 @@ html {
     font-size: 10px;
     color: white;
     background: $bg-main-color;
+    font-family: $special-font;
 }
 
 .wrapper {
@@ -11,8 +12,8 @@ html {
     flex-direction: row;
     align-content: flex-start;
     // pozycja i wielkość
-    max-width: 1200px;
-    min-height: 90vh;
+    width: 1200px;
+    // min-height: 90vh;
     margin: 0 auto;
     //wygląd      
     background-color: $bg-main-color;

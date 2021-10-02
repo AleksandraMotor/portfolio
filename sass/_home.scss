@@ -1,11 +1,66 @@
 .s1 {
     background-color: $grey-color;
-    &__box {
+    position: relative;
+    height: 65vh;
+
+    &__boxA {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-around;
+        top: 50px;
+        margin-left: 150px;
+        margin-top: 50px;
         width: 250px;
-        height: 250px;
-        background-color: $grey-color;
+        height: 500px;
+        background-color: $bg-main-color;
+
+        img {
+            width: 200px;
+            align-self: center;
+            margin: 10px 0;
+        }
+
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+            background-color: $menu-color;
+        }
+
+        ul {
+            list-style: none;
+            align-self: center;
+        }
+
+        li {
+            font-size: 25px;
+            margin: 10px 0;
+        }
     }
-    &__img {
-        width: 200px;
+
+    &__boxB {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 800px;
+        height: 500px;
+        padding: 30px 10px;
+        text-align: center;
+        color: $menu-color;       
+        h1 {
+        font-size: 70px;
+        line-height: 70px;
+        }
+        h2 {
+            font-size: 40px;
+            line-height: 80px;
+        }
+        span {
+            font-size: 30px;
+            line-height: 40px;
+        }
     }
 }

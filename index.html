@@ -26,7 +26,8 @@
                 <li class="menu__item"><a href="#" class="home menu__link">home</a></li>
                 <li class="menu__item"><a href="#" class="projects menu__link">projects</a></li>
                 <li class="menu__item"><a href="#" class="skills menu__link">skills</a></li>
-                <li class="menu__item"><a href="#" class="contact menu__link">contact</a></li>                <li class="menu__item"><a href="#" class="menu__link"><i class="fas fa-file-download"></i> cv</a></li>
+                <li class="menu__item"><a href="#" class="contact menu__link">contact</a></li>                
+                <li class="menu__item"><a href="#" class="menu__link"><i class="fas fa-file-download"></i> cv</a></li>
             </ul>
         </nav>
 
@@ -46,19 +47,44 @@
             </ul>
         </nav>
 
-        <section class="wrapper__section s1" data-section="home" id="home">
-            <div class="s1__box"><img class="s1__img" src="img/photo.jpg" alt=""></div>
+        <section class="wrapper__section s1 clearfix" data-section="home" id="home">                
+            <div class="s1__boxA clearfix">
+                    <img class="img" src="img/photo.jpg" alt="">
+                    <h1>Languages</h1>
+                    <ul>
+                        <li>Polish - native</li>
+                        <li>English - C1</li>
+                        <li>German - B2</li>
+                    </ul>
+            </div>  
+                
+            <div class="s1__boxB">
+                <h1>Front-end Developer</h1>
+                <h2>Aleksandra Motor</h2>
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id atque sunt pariatur consequuntur aut et quas nobis ab quasi cum nam quidem, doloremque assumenda molestiae odio ea natus ad quae!</span>
+            </div>
         </section>
-        <section class="wrapper__section s2" data-section="projects" id="projects"></section>
-        <section class="wrapper__section s3" data-section="skills" id="skills"></section>
-        <section class="wrapper__section s4" data-section="contact" id="contact"></section>
+
+        <section class="wrapper__section s2 clearfix" data-section="projects" id="projects">
+            <h1>Moje projekty</h1>
+            <div class="s2__web">
+                <img src="img/animatedHamburgers.png" alt="animatedHamburgers">
+            </div>
+            <div class="s2__about">
+                <h2>Animated Hamburgers</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, rem dolorum tenetur eos nobis quia sequi laudantium culpa mollitia repudiandae nulla delectus eius deleniti, placeat, ab a sed recusandae labore?</p>
+                <a href="https://github.com/AleksandraMotor" class="icons__link"><i class="fab fa-github"></i></a>
+            </div>
+        </section>
+
+        <section class="wrapper__section s3 clearfix" data-section="skills" id="skills"></section>
+        <section class="wrapper__section s4 clearfix" data-section="contact" id="contact"></section>
 
         <footer class="wrapper__footer footer">
                 <a href="https://www.linkedin.com/" class="footer__link"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/AleksandraMotor" class="footer__link"><i class="fab fa-github"></i></a>
                 <a href="#" class="footer__link"><i class="far fa-envelope"></i></a>
         </footer>
-
     </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
