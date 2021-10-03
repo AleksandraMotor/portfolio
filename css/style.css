@@ -38,7 +38,6 @@ html {
 }
 
 .wrapper__section {
-  height: 100vh;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
@@ -249,43 +248,72 @@ html {
 
 .s2 {
   background-color: #879abf;
-  position: relative;
+  height: 110vh;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.s2 .project {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .s2 h1 {
   font-size: 80px;
   line-height: 80px;
   border-bottom: 2px solid white;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .s2__web {
   float: left;
-  padding-left: 30px;
-  background-color: red;
-  height: 600px;
-  width: 600px;
+  height: 350px;
+  width: 500px;
 }
 
 .s2__web img {
+  -webkit-box-shadow: 0 0 10px 0 black;
+          box-shadow: 0 0 10px 0 black;
+  height: 100%;
   width: 100%;
+  background-size: cover;
 }
 
 .s2__about {
   float: left;
-  padding: 0 40px;
-  height: 600px;
-  width: 600px;
+  padding: 20px 40px;
+  height: 350px;
+  width: 500px;
 }
 
 .s2__about h2 {
-  font-size: 50px;
-  line-height: 100px;
+  font-size: 40px;
+  line-height: 80px;
 }
 
 .s2__about p {
   font-size: 30px;
+  line-height: 30px;
+}
+
+.s2__about a {
+  font-size: 40px;
+  line-height: 120px;
+  color: white;
+  margin: 0 50px;
 }
 
 .s3 {
