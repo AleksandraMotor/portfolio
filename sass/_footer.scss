@@ -2,16 +2,15 @@
     // pozycja i wielkość
     display: flex;
     flex-basis: 100%;
-    height: 5vh;
+    height: 8vh;
     justify-content: center;
     align-items: center;
     background-color: $menu-color;
 
     &__link {
-        margin: 5px;
-        padding: 10px;
-        font-size: 30px;
-        line-height: 30px;
+        margin: 0 20px;
+        font-size: 50px;
+        line-height: 50px;
         color: white;
         cursor: pointer;
     }

@@ -1,6 +1,6 @@
 .s3 {
     background-color: $skills-color;
-    height: 100vh;
+    height: 80vh;
     
 
     h1 {
@@ -8,19 +8,19 @@
         font-size: 80px;
         line-height: 80px;
         border-bottom: 2px solid white;
-        margin: 20px 0;
+        margin: 10px 0;
     }
 
     &__listA {
         list-style: none;
         font-size: 30px;
         line-height: 50px;
-        padding: 50px 100px;
+        padding: 30px 100px;
     }
 
     &__listB {
         font-size: 30px;
         list-style: none;
-        padding: 50px 100px;
+        padding: 30px 100px;
     }
 }
