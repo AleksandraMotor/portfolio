@@ -163,7 +163,7 @@ html {
 .s1 {
   background-color: #727271;
   position: relative;
-  height: 65vh;
+  height: 50vh;
 }
 
 .s1__boxA {
@@ -318,6 +318,28 @@ html {
 
 .s3 {
   background-color: #3f3f3f;
+  height: 100vh;
+}
+
+.s3 h1 {
+  text-align: center;
+  font-size: 80px;
+  line-height: 80px;
+  border-bottom: 2px solid white;
+  margin: 20px 0;
+}
+
+.s3__listA {
+  list-style: none;
+  font-size: 30px;
+  line-height: 50px;
+  padding: 50px 100px;
+}
+
+.s3__listB {
+  font-size: 30px;
+  list-style: none;
+  padding: 50px 100px;
 }
 
 .s4 {
