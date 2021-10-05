@@ -13,14 +13,9 @@ html {
     align-content: flex-start;
     // pozycja i wielkość
     width: 1200px;
-    // min-height: 90vh;
+    height: auto;
     margin: 0 auto;
     //wygląd      
     background-color: $bg-main-color;
     box-shadow: 0 0 4px 0 $grey-color;
-
-    &__section {
-        // min-height: 100vh;
-        flex-basis: 100%;
-    }
 }  

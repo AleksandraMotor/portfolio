@@ -31,15 +31,11 @@ html {
   -ms-flex-line-pack: start;
       align-content: flex-start;
   width: 1200px;
+  height: auto;
   margin: 0 auto;
   background-color: #1f2126;
   -webkit-box-shadow: 0 0 4px 0 #727271;
           box-shadow: 0 0 4px 0 #727271;
-}
-
-.wrapper__section {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
 }
 
 .icons {
@@ -48,7 +44,7 @@ html {
   display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 5vh;
+  height: 70px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -74,7 +70,7 @@ html {
 .menu {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 10vh;
+  height: 100px;
   background-color: #090a0c;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,7 +112,7 @@ html {
 .fixed {
   position: fixed;
   background-color: #090a0c;
-  top: 17vh;
+  top: 200px;
   left: calc(50% - 600px);
   z-index: 5;
 }
@@ -163,7 +159,7 @@ html {
 .s1 {
   background-color: #727271;
   position: relative;
-  height: 85vh;
+  height: 1000px;
 }
 
 .s1__boxA {
@@ -248,7 +244,8 @@ html {
 
 .s2 {
   background-color: #879abf;
-  height: 110vh;
+  height: 1200px;
+  width: inherit;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,7 +315,8 @@ html {
 
 .s3 {
   background-color: #3f3f3f;
-  height: 80vh;
+  height: 1000px;
+  width: inherit;
 }
 
 .s3 h1 {
@@ -344,7 +342,8 @@ html {
 
 .s4 {
   background-color: #1f2126;
-  height: 95vh;
+  height: 1000px;
+  width: inherit;
 }
 
 .s4 h1 {
@@ -407,7 +406,7 @@ html {
   display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 8vh;
+  height: 70px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
