@@ -18,4 +18,8 @@ html {
     //wygląd      
     background-color: $bg-main-color;
     box-shadow: 0 0 4px 0 $grey-color;
+    &__section {
+        height: 100vh;
+    }
 }  
+   

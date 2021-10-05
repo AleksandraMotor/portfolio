@@ -38,13 +38,17 @@ html {
           box-shadow: 0 0 4px 0 #727271;
 }
 
+.wrapper__section {
+  height: 100vh;
+}
+
 .icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 70px;
+  height: 5vh;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -70,7 +74,7 @@ html {
 .menu {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 100px;
+  height: 10vh;
   background-color: #090a0c;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -159,7 +163,7 @@ html {
 .s1 {
   background-color: #727271;
   position: relative;
-  height: 1000px;
+  height: 100vh;
 }
 
 .s1__boxA {
@@ -244,7 +248,6 @@ html {
 
 .s2 {
   background-color: #879abf;
-  height: 1200px;
   width: inherit;
   text-align: center;
   display: -webkit-box;
@@ -315,7 +318,6 @@ html {
 
 .s3 {
   background-color: #3f3f3f;
-  height: 1000px;
   width: inherit;
 }
 
@@ -342,7 +344,6 @@ html {
 
 .s4 {
   background-color: #1f2126;
-  height: 1000px;
   width: inherit;
 }
 
@@ -406,7 +407,7 @@ html {
   display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 70px;
+  height: 10vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
