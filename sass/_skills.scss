@@ -1,6 +1,6 @@
 .s3 {
     background-color: $home-color;
-    // height: 1000px;
+    height: 1000px;
     width: inherit;
 
     h1 {
@@ -12,11 +12,23 @@
     }
 
     &__listA {
-        list-style: none;
-        font-size: 30px;
-        line-height: 50px;
-        padding: 30px 100px;
+        font-size: 40px;
+        margin: 20px 100px;  
+        text-align: center; 
+        display: flex;     
+        
+        i {
+            margin: 0 20px;
+            font-size: 80px;
+            color: $bright-color;
+        }
+
     }
+
+        
+
+
+
 
     &__listB {
         font-size: 30px;

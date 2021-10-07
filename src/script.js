@@ -42,28 +42,28 @@
             const odlegloscOdPoczatkuSekcji4 = $('.s4').offset().top;
 
             if(wielkoscScrolla < wysokoscSekcji1) {
-                $('.fa-home').css('color', '#a7d129');
+                $('.fa-home').css('color', '#f1b24a');
                 $('.fa-folder').css('color', 'white');
                 $('.fa-address-card').css('color', 'white');
                 $('.fa-phone-alt').css('color', 'white');
             }
             else if (wielkoscScrolla < wysokoscSekcji2 + odlegloscOdPoczatkuSekcji2) {
                 $('.fa-home').css('color', 'white');
-                $('.fa-folder').css('color', '#a7d129');
+                $('.fa-folder').css('color', '#f1b24a');
                 $('.fa-address-card').css('color', 'white');
                 $('.fa-phone-alt').css('color', 'white');
             } 
             else if (wielkoscScrolla < wysokoscSekcji3 + odlegloscOdPoczatkuSekcji3) {
                 $('.fa-home').css('color', 'white');
                 $('.fa-folder').css('color', 'white');
-                $('.fa-address-card').css('color', '#a7d129');
+                $('.fa-address-card').css('color', '#f1b24a');
                 $('.fa-phone-alt').css('color', 'white');
             } 
             else {
                 $('.fa-home').css('color', 'white');
                 $('.fa-folder').css('color', 'white');
                 $('.fa-address-card').css('color', 'white');
-                $('.fa-phone-alt').css('color', '#a7d129');
+                $('.fa-phone-alt').css('color', '#f1b24a');
             } 
         }   
            $(document).on('scroll', active)

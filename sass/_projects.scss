@@ -1,51 +1,68 @@
 .s2 {
     background-color: $projects-color;
-    // height: 1200px;
+    height: 1500px;
     width: inherit;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-content: space-around;
-    flex-wrap: wrap;
-    .project {
-        align-self: center;
-    }
+    align-content: space-around;   
     h1 {
         font-size: 80px;
         line-height: 80px;
         border-bottom: 2px solid $light-color;
         margin: 50px 0;
     }
-    &__web {
-        float: left;
-        height: 350px;
-        width: 500px;
-        img {
-            box-shadow: 0 0 10px 0 $bright-color;
-            height: 100%;
-            width: 100%;
-            background-size: cover;
+    &__project {
+        align-self: center;
+        height: 400px;
+        width: 600px;
+        background-position: center;
+        background-repeat: no-repeat;        
+        background-size: 100%;
+        box-shadow: 0 0 5px 0 black;
+        transition: 0.5s;
+
+        &:nth-of-type(1) {
+            background-image: url(../img/animatedHamburgers.png);
         }
-    }
+
+        &:nth-of-type(2) {
+            background-image: url(../img/photoGallery.png);
+        }
+
+        &:nth-of-type(3) {
+            background-image: url(../img/whiteDwarf.png);
+        }
+        &:hover {
+            background-size: 120%;
+        }
+    }        
     &__about {
-        float: left;
-        padding: 20px 40px;
-        height: 350px;
-        width: 500px;
-        h2 {
-            font-size: 40px;
-            line-height: 80px;
-        }
-        p {
-            font-size: 30px;
-            line-height: 30px;
-        }
-        a {
-            font-size: 40px;
-            line-height: 120px;
-            color: $light-color;
-            margin: 0 50px;
-        }
-    }
+        height: inherit;
+        opacity: 0;
+        // text-shadow: 0 0 4px black;
+        background-color: rgba(0, 0, 0, 0.7);
+        cursor: pointer;
+        transition: 0.5s;
+        padding: 100px 40px;
+            h2 {
+                font-size: 40px;
+                line-height: 80px;
+            }
+            p {
+                font-size: 30px;
+                line-height: 30px;
+            }
+            a {
+                font-size: 40px;
+                line-height: 120px;
+                color: $light-color;
+                margin: 0 50px;
+            }
+            &:hover {
+                    opacity: 1;
+            }
+        }            
+
 }
