@@ -1,5 +1,5 @@
 # portfolio
-work in progress - curretly working on RWD
+about me
 
  # Live demo
  https://aleksandramotor.github.io/portfolio/
