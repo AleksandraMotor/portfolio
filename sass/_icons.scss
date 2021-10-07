@@ -2,8 +2,7 @@
     // pozycja i wielkość
     display: flex;
     flex-basis: 100%;
-    // height: 70px;
-    height: 5vh;
+    height: 70px;
     justify-content: flex-end;
     align-items: center;
     margin-right: 40px;
@@ -13,11 +12,11 @@
         padding: 10px 10px;
         font-size: 30px;
         line-height: 30px;
-        color: white;
+        color: $light-color;
         cursor: pointer;
 
         &:hover {
-            color: yellow;
+            color: $bright-color;
         }
     }
 }

@@ -1,5 +1,5 @@
 .s3 {
-    background-color: $skills-color;
+    background-color: $home-color;
     // height: 1000px;
     width: inherit;
 
@@ -7,8 +7,8 @@
         text-align: center;
         font-size: 80px;
         line-height: 80px;
-        border-bottom: 2px solid white;
-        margin: 10px 0;
+        border-bottom: 2px solid $light-color;
+        margin: 50px 0;
     }
 
     &__listA {

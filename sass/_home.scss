@@ -1,8 +1,7 @@
 .s1 {
-    background-color: $grey-color;
+    background-color: $home-color;
     position: relative;
-    height: 100vh;
-    // height: 1000px;
+    height: 830px;
 
     &__boxA {
         float: left;
@@ -15,7 +14,8 @@
         margin-top: 50px;
         width: 250px;
         height: 500px;
-        background-color: $bg-main-color;
+        background-color: $projects-color;
+        box-shadow: 0 0 5px 0 $bright-color;
 
         img {
             width: 200px;
@@ -50,15 +50,18 @@
         height: 500px;
         padding: 30px 50px;
         text-align: center;
-        color: $menu-color;       
+        // color: $menu-color;
+
         h1 {
-        font-size: 70px;
-        line-height: 70px;
+            font-size: 70px;
+            line-height: 70px;
         }
+
         h2 {
             font-size: 40px;
             line-height: 80px;
         }
+
         span {
             font-size: 30px;
             line-height: 40px;

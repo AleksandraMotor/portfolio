@@ -13,9 +13,9 @@
 
 html {
   font-size: 10px;
-  color: white;
-  background: #1f2126;
+  color: #f7f7f2;
   font-family: "Stick No Bills", "arial", sans-serif;
+  background: #222725;
 }
 
 .wrapper {
@@ -33,13 +33,9 @@ html {
   width: 1200px;
   height: auto;
   margin: 0 auto;
-  background-color: #1f2126;
-  -webkit-box-shadow: 0 0 4px 0 #727271;
-          box-shadow: 0 0 4px 0 #727271;
-}
-
-.wrapper__section {
-  height: 100vh;
+  background-color: #3e432e;
+  -webkit-box-shadow: 0 0 4px 0 #a7d129;
+          box-shadow: 0 0 4px 0 #a7d129;
 }
 
 .icons {
@@ -48,7 +44,7 @@ html {
   display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 5vh;
+  height: 70px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -63,19 +59,19 @@ html {
   padding: 10px 10px;
   font-size: 30px;
   line-height: 30px;
-  color: white;
+  color: #f7f7f2;
   cursor: pointer;
 }
 
 .icons__link:hover {
-  color: yellow;
+  color: #a7d129;
 }
 
 .menu {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 10vh;
-  background-color: #090a0c;
+  height: 100px;
+  background-color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,20 +98,20 @@ html {
   font-size: 45px;
   line-height: 50px;
   display: block;
-  color: white;
+  color: #f7f7f2;
   text-decoration: none;
   cursor: pointer;
   border-bottom: 2px solid transparent;
 }
 
 .menu__link:hover {
-  border-color: yellow;
-  color: yellow;
+  border-color: #a7d129;
+  color: #a7d129;
 }
 
 .fixed {
   position: fixed;
-  background-color: #090a0c;
+  background-color: #000;
   top: 200px;
   left: calc(50% - 600px);
   z-index: 5;
@@ -149,7 +145,7 @@ html {
 
 .fixed__link {
   display: block;
-  color: white;
+  color: #f7f7f2;
   padding: 5px;
   border-right: 2px solid transparent;
   border-radius: 5px;
@@ -157,13 +153,13 @@ html {
 }
 
 .fixed__link:hover {
-  border-right: 2px solid yellow;
+  border-right: 2px solid #a7d129;
 }
 
 .s1 {
-  background-color: #727271;
+  background-color: #616f39;
   position: relative;
-  height: 100vh;
+  height: 830px;
 }
 
 .s1__boxA {
@@ -184,7 +180,9 @@ html {
   margin-top: 50px;
   width: 250px;
   height: 500px;
-  background-color: #1f2126;
+  background-color: #3e432e;
+  -webkit-box-shadow: 0 0 5px 0 #a7d129;
+          box-shadow: 0 0 5px 0 #a7d129;
 }
 
 .s1__boxA img {
@@ -199,7 +197,7 @@ html {
   width: 100%;
   text-align: center;
   font-size: 30px;
-  background-color: #090a0c;
+  background-color: #000;
 }
 
 .s1__boxA ul {
@@ -228,7 +226,6 @@ html {
   height: 500px;
   padding: 30px 50px;
   text-align: center;
-  color: #090a0c;
 }
 
 .s1__boxB h1 {
@@ -247,7 +244,7 @@ html {
 }
 
 .s2 {
-  background-color: #879abf;
+  background-color: #3e432e;
   width: inherit;
   text-align: center;
   display: -webkit-box;
@@ -274,8 +271,8 @@ html {
 .s2 h1 {
   font-size: 80px;
   line-height: 80px;
-  border-bottom: 2px solid white;
-  margin: 20px 0;
+  border-bottom: 2px solid #f7f7f2;
+  margin: 50px 0;
 }
 
 .s2__web {
@@ -285,8 +282,8 @@ html {
 }
 
 .s2__web img {
-  -webkit-box-shadow: 0 0 10px 0 black;
-          box-shadow: 0 0 10px 0 black;
+  -webkit-box-shadow: 0 0 10px 0 #a7d129;
+          box-shadow: 0 0 10px 0 #a7d129;
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -312,12 +309,12 @@ html {
 .s2__about a {
   font-size: 40px;
   line-height: 120px;
-  color: white;
+  color: #f7f7f2;
   margin: 0 50px;
 }
 
 .s3 {
-  background-color: #3f3f3f;
+  background-color: #616f39;
   width: inherit;
 }
 
@@ -325,8 +322,8 @@ html {
   text-align: center;
   font-size: 80px;
   line-height: 80px;
-  border-bottom: 2px solid white;
-  margin: 10px 0;
+  border-bottom: 2px solid #f7f7f2;
+  margin: 50px 0;
 }
 
 .s3__listA {
@@ -343,15 +340,16 @@ html {
 }
 
 .s4 {
-  background-color: #1f2126;
+  background-color: #3e432e;
+  height: 1150px;
   width: inherit;
 }
 
 .s4 h1 {
   font-size: 80px;
   line-height: 80px;
-  border-bottom: 2px solid white;
-  margin: 40px 0;
+  border-bottom: 2px solid #f7f7f2;
+  margin: 80px 0;
   text-align: center;
 }
 
@@ -407,21 +405,21 @@ html {
   display: flex;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 10vh;
+  height: 70px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #090a0c;
+  background-color: #000;
 }
 
 .footer__link {
   margin: 0 20px;
   font-size: 50px;
   line-height: 50px;
-  color: white;
+  color: #f7f7f2;
   cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

@@ -14,15 +14,15 @@
     h1 {
         font-size: 80px;
         line-height: 80px;
-        border-bottom: 2px solid white;
-        margin: 20px 0;
+        border-bottom: 2px solid $light-color;
+        margin: 50px 0;
     }
     &__web {
         float: left;
         height: 350px;
         width: 500px;
         img {
-            box-shadow: 0 0 10px 0 black;
+            box-shadow: 0 0 10px 0 $bright-color;
             height: 100%;
             width: 100%;
             background-size: cover;
@@ -44,7 +44,7 @@
         a {
             font-size: 40px;
             line-height: 120px;
-            color: white;
+            color: $light-color;
             margin: 0 50px;
         }
     }
